@@ -101,7 +101,7 @@ export default function Login() {
       setAuthToken(data.token);
       toast({
         title: "Account created!",
-        description: "Welcome to FitTracker Pro.",
+        description: "Welcome to Natural Aesthetics.",
       });
       window.location.href = "/dashboard";
     },
@@ -138,7 +138,7 @@ export default function Login() {
         ></div>
         <div className="relative z-10 flex flex-col justify-center px-12 text-white">
           <h1 className="text-5xl font-bold mb-6">Transform Your Fitness Journey</h1>
-          <p className="text-xl text-blue-100 mb-8">Track workouts, monitor nutrition, and achieve your goals with FitTracker Pro</p>
+          <p className="text-xl text-blue-100 mb-8">Track workouts, monitor nutrition, and achieve your goals with Natural Aesthetics</p>
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <Check className="text-accent w-5 h-5" />
@@ -164,7 +164,7 @@ export default function Login() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <Dumbbell className="text-white w-5 h-5" />
               </div>
-              <h2 className="text-2xl font-bold text-foreground">FitTracker Pro</h2>
+              <h2 className="text-2xl font-bold text-foreground">Natural Aesthetics</h2>
             </div>
           </div>
 

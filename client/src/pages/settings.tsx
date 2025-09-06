@@ -115,7 +115,7 @@ export default function Settings() {
     <div className="p-6">
       <div className="mb-8">
         <h2 className="text-3xl font-bold text-foreground">Settings</h2>
-        <p className="text-muted-foreground">Customize your FitTracker Pro experience</p>
+        <p className="text-muted-foreground">Customize your Natural Aesthetics experience</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -331,7 +331,7 @@ export default function Settings() {
               <CardHeader>
                 <CardTitle>Notification Preferences</CardTitle>
                 <p className="text-sm text-muted-foreground">
-                  Manage how you receive notifications from FitTracker Pro
+                  Manage how you receive notifications from Natural Aesthetics
                 </p>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -411,7 +411,7 @@ export default function Settings() {
               <CardHeader>
                 <CardTitle>Appearance</CardTitle>
                 <p className="text-sm text-muted-foreground">
-                  Customize the look and feel of FitTracker Pro
+                  Customize the look and feel of Natural Aesthetics
                 </p>
               </CardHeader>
               <CardContent className="space-y-6">

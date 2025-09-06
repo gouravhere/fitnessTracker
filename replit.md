@@ -1,8 +1,8 @@
-# FitTracker Pro - Fitness and Health Tracking Application
+# Natural Aesthetics - Fitness and Health Tracking Application
 
 ## Overview
 
-FitTracker Pro is a comprehensive fitness and health tracking application that allows users to log workouts, track meals and nutrition, monitor body measurements, and analyze their fitness progress over time. The application features a modern web interface with a dashboard for visualization of fitness data, workout logging with exercise details, meal planning with nutritional tracking, and progress monitoring through body measurements.
+Natural Aesthetics is a comprehensive fitness and health tracking application that allows users to log workouts, track meals and nutrition, monitor body measurements, and analyze their fitness progress over time. The application features a modern web interface with a dashboard for visualization of fitness data, workout logging with exercise details, meal planning with nutritional tracking, and progress monitoring through body measurements.
 
 ## User Preferences
 

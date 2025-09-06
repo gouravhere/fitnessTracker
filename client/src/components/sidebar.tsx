@@ -41,7 +41,7 @@ export function Sidebar() {
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
             <Dumbbell className="w-4 h-4 text-primary-foreground" />
           </div>
-          <span className="ml-3 text-xl font-bold text-foreground">FitTracker Pro</span>
+          <span className="ml-3 text-xl font-bold text-foreground">Natural Aesthetics</span>
         </div>
 
         {/* Navigation */}
