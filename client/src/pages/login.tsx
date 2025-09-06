@@ -13,6 +13,7 @@ import { useMutation } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import { setAuthToken, isAuthenticated } from "@/lib/auth";
 import { useToast } from "@/hooks/use-toast";
+import backgroundImage from "@assets/image_1757176213976.png";
 
 const loginSchema = z.object({
   email: z.string().email("Invalid email address"),
@@ -127,10 +128,10 @@ export default function Login() {
     <div className="min-h-screen flex">
       {/* Hero Section */}
       <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary via-blue-600 to-accent relative">
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
         <div 
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800')",
+            backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center"
           }}
